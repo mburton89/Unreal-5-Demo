@@ -992,3 +992,31 @@ Recommended: 516.25
 [2022.08.30-20.02.15:371][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2022.08.30-20.02.15:435][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
 [2022.08.30-20.02.16:033][  1]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.08.30-20.03.42:654][743]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2022.08.30-20.03.42:654][743]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2022.08.30-20.03.42:655][743]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.StaticMeshActor_0
+[2022.08.30-20.03.42:667][743]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.StaticMeshActor_0
+[2022.08.30-20.03.52:376][539]LogDerivedDataCache: C:/Users/WUStudent/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.018 and deleted 0 file(s) with total size 0 MiB.
+[2022.08.30-20.04.26:187][827]Cmd: TRANSACTION UNDO
+[2022.08.30-20.04.26:187][827]LogEditorTransaction: Undo Move Elements
+[2022.08.30-20.05.43:836][999]LogSlate: Took 0.000945 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.08.30-20.05.43:844][999]LogSlate: Took 0.000799 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.08.30-20.06.18:424][646]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2022.08.30-20.06.18:505][646]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.30-20.06.18:546][646]LogTexture: Display: Waiting for textures to be ready 0/1 (/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1) ...
+[2022.08.30-20.06.18:949][646]LogViewport: Scene viewport resized to 1217x772, mode Windowed.
+[2022.08.30-20.06.25:549][ 14]LogSlate: Window 'SM_Chair' being destroyed
+[2022.08.30-20.06.25:555][ 14]LogSlate: Window 'SM_Chair' being destroyed
+[2022.08.30-20.06.25:714][ 14]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.08.30-20.06.25:714][ 14]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.30-20.09.18:898][112]Cmd: DELETE
+[2022.08.30-20.09.18:899][112]Cmd: ACTOR DELETE
+[2022.08.30-20.09.18:904][112]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.08.30-20.09.18:919][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.08.30-20.09.18:921][112]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2022.08.30-20.12.13:624][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.08.30-20.12.13:656][447]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1
+[2022.08.30-20.12.13:656][447]LogSavePackage: Moving 'C:/Users/WUStudent/Documents/GitHub/Unreal-5-Demo/UE5Demo/Saved/Minimal_Default_Auto154B045FC406325E9EB26C39399FAA153.tmp' to 'C:/Users/WUStudent/Documents/GitHub/Unreal-5-Demo/UE5Demo/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2022.08.30-20.12.13:687][447]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Minimal_Default' took 0.076
+[2022.08.30-20.12.13:687][447]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.076
+[2022.08.30-20.13.16:015][402]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
