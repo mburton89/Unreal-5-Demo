@@ -1376,3 +1376,608 @@ Recommended: 22.2.2
 [2022.09.25-16.39.03:141][309]LogFileHelpers: No new changes to save!
 [2022.09.25-16.39.03:159][309]AssetCheck: New page: Asset Save: MaterialExampleLevel
 [2022.09.25-16.39.03:159][309]LogContentValidation: Display: Validating World /Game/MyStuff/MaterialExampleLevel.MaterialExampleLevel
+[2022.09.25-16.49.03:182][156]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.09.25-16.49.03:182][156]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyStuff/MaterialExampleLevel' took 0.011
+[2022.09.25-16.49.03:183][156]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/M_SpanishPavement] ([1] browsable assets)...
+[2022.09.25-16.49.05:244][156]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.09.25-16.49.06:747][156]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.001048s (1.531831s overbudget)
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: ================================================
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: Total job queries 177, among them cache hits 93 (52.54%)
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: Tracking 70 distinct input hashes that result in 39 distinct outputs (55.71%)
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: RAM used: 0.10 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.01%
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: Shaders Compiled: 20
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: Jobs assigned 70, completed 70 (100.00%)
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: Average time worker was idle: 55.58 s
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: Time job spent in pending queue: average 1.00 s, longest 7.21 s
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: Job execution time: average 2.70 s, max 5.62 s
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: Job life time (pending + execution): average 3.70 s, max 9.47
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 54.72 s
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: Jobs were issued in 70 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: Average processing rate: 1.28 jobs/sec
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: Effective parallelization: 2.89 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   15 times, average 3.31 sec, max 4.47 sec, min 2.16 sec)
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    8 times, average 3.30 sec, max 4.38 sec, min 1.94 sec)
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   15 times, average 3.11 sec, max 5.31 sec, min 1.83 sec)
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    8 times, average 1.29 sec, max 1.89 sec, min 0.45 sec)
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 1.18 sec, max 1.29 sec, min 1.08 sec)
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 31.47% of total time (compiled   15 times, average 3.31 sec, max 4.47 sec, min 2.16 sec)
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 29.54% of total time (compiled   15 times, average 3.11 sec, max 5.31 sec, min 1.83 sec)
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display:                                                 FLumenCardVS - 16.72% of total time (compiled    8 times, average 3.30 sec, max 4.38 sec, min 1.94 sec)
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.56% of total time (compiled    8 times, average 1.29 sec, max 1.89 sec, min 0.45 sec)
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 1.50% of total time (compiled    2 times, average 1.18 sec, max 1.29 sec, min 1.08 sec)
+[2022.09.25-16.49.06:751][156]LogShaderCompilers: Display: ================================================
+[2022.09.25-16.49.06:794][156]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MyStuff/M_SpanishPavement.M_SpanishPavement]
+[2022.09.25-16.49.06:794][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/M_SpanishPavement]
+[2022.09.25-16.49.06:797][156]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyStuff/M_SpanishPavement_Auto3
+[2022.09.25-16.49.06:797][156]LogSavePackage: Moving '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Saved/M_SpanishPavement_Auto320B521D241C92782F2FB62B7D36E7BE9.tmp' to '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Saved/Autosaves/Game/MyStuff/M_SpanishPavement_Auto3.uasset'
+[2022.09.25-16.49.06:799][156]LogFileHelpers: Auto-saving content packages took 3.616
+[2022.09.25-16.49.06:822][157]MaterialEditorStats: Base pass shader: 135 instructions
+[2022.09.25-16.49.06:822][157]MaterialEditorStats: Base pass vertex shader: 112 instructions
+[2022.09.25-16.49.06:822][157]MaterialEditorStats: Texture samplers: 6/16
+[2022.09.25-16.49.06:822][157]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.25-16.49.06:822][157]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.25-16.49.06:822][157]MaterialEditorStats: Shader Count: 16
+[2022.09.25-16.58.42:911][880]LogDerivedDataCache: C:/Users/burto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.018 and deleted 0 file(s) with total size 0 MiB.
+[2022.09.25-17.58.42:920][642]LogDerivedDataCache: C:/Users/burto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.015 and deleted 0 file(s) with total size 0 MiB.
+[2022.09.25-18.11.29:668][933]LogViewport: Scene viewport resized to 998x1884, mode Windowed.
+[2022.09.25-18.15.04:337][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Maps/ArchVizRoom.umap'. Unknown extension 'umap'.
+[2022.09.25-18.15.04:370][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Maps/LightBounce.umap'. Unknown extension 'umap'.
+[2022.09.25-18.15.04:403][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Maps/LightBounce_BuiltData.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.04:435][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/MI_AlarmClock.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.04:469][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/MI_Color_Black.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.04:504][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/MI_Color_Green.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.05:189][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/MI_Color_LightGray.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.05:389][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/MI_Color_Orange.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.05:619][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/MI_Color_Rd.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.06:119][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/MI_Color_White.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.06:623][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/MI_Emmisive_Master.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.07:119][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/MI_Primary_Wall.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.07:637][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/MI_RotaryPhone.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.08:190][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/MI_SmallTable.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.08:804][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/MI_SquareChair.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.09:418][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/MI_Wall.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.10:007][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/M_AlarmClock.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.10:467][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/M_BasicMetal.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.10:701][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/M_CoffeeCup.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.11:214][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/M_Color_Master.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.11:699][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/M_Emmisive_Inst.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.11:935][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/M_Mirror.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.12:459][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/M_RotaryPhone.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.12:938][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/M_SmallTable.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.13:399][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/M_SquareChair.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.13:918][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Materials/M_Wall.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.14:400][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Meshes/ArchRoomGeometry/SM_BaseBoard.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.14:919][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Meshes/ArchRoomGeometry/SM_CurtainHolder.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.15:413][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Meshes/ArchRoomGeometry/SM_DoorKnbb.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.15:919][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Meshes/ArchRoomGeometry/SM_DoorWallPattern.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.16:406][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Meshes/ArchRoomGeometry/SM_Floor.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.16:951][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Meshes/ArchRoomGeometry/SM_MainDoor.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.17:417][271]LogAssetTools: Warning: Failed to import 'C:\Users\burto\Documents\_Webster\Unreal\IntroUnrealProject\Content\LightingExamples/Meshes/ArchRoomGeometry/SM_Roof.uasset'. Unknown extension 'uasset'.
+[2022.09.25-18.15.17:670][271]LogAssetTools: The import task was canceled.
+[2022.09.25-18.21.33:944][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.09.25-18.21.36:191][127]LogSlate: Window 'Save Content' being destroyed
+[2022.09.25-18.21.36:331][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyStuff/M_SpanishPavement" FILE="../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Content/MyStuff/M_SpanishPavement.uasset" SILENT=true
+[2022.09.25-18.21.36:342][127]LogSavePackage: Moving output files for package: /Game/MyStuff/M_SpanishPavement
+[2022.09.25-18.21.36:347][127]LogSavePackage: Moving '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Saved/M_SpanishPavement556706C84734B3CE65CDE5B65918BC26.tmp' to '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Content/MyStuff/M_SpanishPavement.uasset'
+[2022.09.25-18.21.36:459][127]LogSavePackage: Moving output files for package: /Game/MyStuff/SpanishPavement_Roughness
+[2022.09.25-18.21.36:462][127]LogSavePackage: Moving '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Saved/SpanishPavement_Roughness9106132B40BC2CE298999E99CA556DDE.tmp' to '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Content/MyStuff/SpanishPavement_Roughness.uasset'
+[2022.09.25-18.21.36:599][127]LogMaterial: Display: Missing cached shadermap for M_Color_Master in PCD3D_SM5, Default, SM5 (DDC key hash: 45CA54251EDEB8A4FF405FC46F7F41C6628C85E2), compiling. 
+[2022.09.25-18.21.36:661][127]LogStaticMesh: Display: Building static mesh SM_Cylinder...
+[2022.09.25-18.21.36:661][127]LogStaticMesh: Display: Building static mesh SM_LightBakeExampleMesh...
+[2022.09.25-18.21.36:661][127]LogStaticMesh: Display: Building static mesh SM_Sphere2x2...
+[2022.09.25-18.21.36:665][127]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LightingExamples/Maps/LightBounce.LightBounce
+[2022.09.25-18.21.36:665][127]Cmd: MAP LOAD FILE="../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Content/LightingExamples/Maps/LightBounce.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.25-18.21.36:665][127]LightingResults: New page: Lighting Build
+[2022.09.25-18.21.36:665][127]LoadErrors: New page: Loading map: LightBounce.umap
+[2022.09.25-18.21.36:669][127]LogWorld: UWorld::CleanupWorld for MaterialExampleLevel, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.21.36:669][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.21.36:669][127]MapCheck: New page: Map Check
+[2022.09.25-18.21.36:669][127]LightingResults: New page: Lighting Build
+[2022.09.25-18.21.36:688][127]LogStaticMesh: Built static mesh [0.01s] /Game/LightingExamples/Meshes/SM_Cylinder.SM_Cylinder
+[2022.09.25-18.21.36:688][127]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.25-18.21.36:695][127]LogStaticMesh: Built static mesh [0.03s] /Game/LightingExamples/Meshes/SM_LightBakeExampleMesh.SM_LightBakeExampleMesh
+[2022.09.25-18.21.36:695][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.09.25-18.21.36:784][127]LogStaticMesh: Built static mesh [0.07s] /Game/LightingExamples/Meshes/SM_Sphere2x2.SM_Sphere2x2
+[2022.09.25-18.21.41:660][127]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2022.09.25-18.21.41:660][127]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.049983s
+[2022.09.25-18.21.46:152][127]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2022.09.25-18.21.46:152][127]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' report submitted, and took 0.049983s
+[2022.09.25-18.21.46:164][127]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' complete in 0.000025s (0.079769s overbudget)
+[2022.09.25-18.21.46:173][127]LogShaderCompilers: Display: ================================================
+[2022.09.25-18.21.46:173][127]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.25-18.21.46:173][127]LogShaderCompilers: Display: Total job queries 202, among them cache hits 93 (46.04%)
+[2022.09.25-18.21.46:173][127]LogShaderCompilers: Display: Tracking 95 distinct input hashes that result in 58 distinct outputs (61.05%)
+[2022.09.25-18.21.46:173][127]LogShaderCompilers: Display: RAM used: 0.15 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.01%
+[2022.09.25-18.21.46:173][127]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.25-18.21.46:173][127]LogShaderCompilers: Display: Shaders Compiled: 45
+[2022.09.25-18.21.46:173][127]LogShaderCompilers: Display: Jobs assigned 95, completed 95 (100.00%)
+[2022.09.25-18.21.46:173][127]LogShaderCompilers: Display: Average time worker was idle: 369.54 s
+[2022.09.25-18.21.46:173][127]LogShaderCompilers: Display: Time job spent in pending queue: average 0.74 s, longest 7.21 s
+[2022.09.25-18.21.46:173][127]LogShaderCompilers: Display: Job execution time: average 4.23 s, max 9.49 s
+[2022.09.25-18.21.46:174][127]LogShaderCompilers: Display: Job life time (pending + execution): average 4.97 s, max 9.49
+[2022.09.25-18.21.46:174][127]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 64.21 s
+[2022.09.25-18.21.46:174][127]LogShaderCompilers: Display: Jobs were issued in 74 batches (only local compilation was used), average 1.28 jobs/batch
+[2022.09.25-18.21.46:174][127]LogShaderCompilers: Display: Average processing rate: 1.48 jobs/sec
+[2022.09.25-18.21.46:174][127]LogShaderCompilers: Display: Effective parallelization: 2.89 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.09.25-18.21.46:174][127]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.25-18.21.46:174][127]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   16 times, average 3.16 sec, max 4.47 sec, min 0.82 sec)
+[2022.09.25-18.21.46:174][127]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    9 times, average 3.07 sec, max 4.38 sec, min 1.19 sec)
+[2022.09.25-18.21.46:174][127]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   16 times, average 2.99 sec, max 5.31 sec, min 1.22 sec)
+[2022.09.25-18.21.46:174][127]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    1 times, average 1.53 sec, max 1.53 sec, min 1.53 sec)
+[2022.09.25-18.21.46:174][127]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    1 times, average 1.42 sec, max 1.42 sec, min 1.42 sec)
+[2022.09.25-18.21.46:174][127]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.25-18.21.46:174][127]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.18% of total time (compiled   16 times, average 3.16 sec, max 4.47 sec, min 0.82 sec)
+[2022.09.25-18.21.46:174][127]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 25.75% of total time (compiled   16 times, average 2.99 sec, max 5.31 sec, min 1.22 sec)
+[2022.09.25-18.21.46:174][127]LogShaderCompilers: Display:                                                 FLumenCardVS - 14.85% of total time (compiled    9 times, average 3.07 sec, max 4.38 sec, min 1.19 sec)
+[2022.09.25-18.21.46:174][127]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 5.79% of total time (compiled    9 times, average 1.20 sec, max 1.89 sec, min 0.40 sec)
+[2022.09.25-18.21.46:174][127]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 2.01% of total time (compiled    3 times, average 1.25 sec, max 1.37 sec, min 1.08 sec)
+[2022.09.25-18.21.46:174][127]LogShaderCompilers: Display: ================================================
+[2022.09.25-18.21.47:901][127]LogMeshUtilities: Finished distance field build in 1.7s - 35x35x140 sparse distance field, 0.3Mb total, 0.0Mb always loaded, 97% occupied, 85 triangles, SM_Cylinder
+[2022.09.25-18.22.09:612][127]LogMeshUtilities: Finished distance field build in 3.6s - 77x77x77 sparse distance field, 0.6Mb total, 0.0Mb always loaded, 77% occupied, 1024 triangles, SM_Sphere2x2
+[2022.09.25-18.22.09:612][127]LogMeshUtilities: Finished distance field build in 23.4s - 203x203x203 sparse distance field, 8.0Mb total, 0.2Mb always loaded, 55% occupied, 9 triangles, SM_LightBakeExampleMesh
+[2022.09.25-18.22.09:643][127]LogWorld: UWorld::CleanupWorld for LightBounce, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.22.09:643][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.22.09:656][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2022.09.25-18.22.09:667][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.09.25-18.22.09:671][127]LogAudio: Display: Audio Device (ID: 1) registered with world 'LightBounce'.
+[2022.09.25-18.22.09:671][127]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.25-18.22.09:671][127]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-18.22.09:672][127]LogAIModule: Creating AISystem for world LightBounce
+[2022.09.25-18.22.09:682][127]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.25-18.22.09:691][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.09.25-18.22.09:704][127]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.25-18.22.09:704][127]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.206ms to complete.
+[2022.09.25-18.22.09:704][127]LogFileHelpers: Loading map 'LightBounce' took 33.039
+[2022.09.25-18.22.09:715][127]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.005318s (23.662122s overbudget)
+[2022.09.25-18.22.09:732][127]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.25-18.22.09:732][127]LogContentValidation: Display: Validating Texture2D /Game/MyStuff/SpanishPavement_Roughness.SpanishPavement_Roughness
+[2022.09.25-18.22.09:732][127]LogContentValidation: Display: Validating Material /Game/MyStuff/M_SpanishPavement.M_SpanishPavement
+[2022.09.25-18.22.56:665][750]LogViewport: Scene viewport resized to 997x1884, mode Windowed.
+[2022.09.25-18.22.56:714][752]LogViewport: Scene viewport resized to 948x1884, mode Windowed.
+[2022.09.25-18.22.56:762][754]LogViewport: Scene viewport resized to 889x1884, mode Windowed.
+[2022.09.25-18.22.56:808][756]LogViewport: Scene viewport resized to 869x1884, mode Windowed.
+[2022.09.25-18.24.03:197][447]LogViewport: Scene viewport resized to 870x1884, mode Windowed.
+[2022.09.25-18.24.03:297][447]LogViewport: Scene viewport resized to 981x1884, mode Windowed.
+[2022.09.25-18.24.03:395][447]LogViewport: Scene viewport resized to 1162x1884, mode Windowed.
+[2022.09.25-18.24.03:528][447]LogViewport: Scene viewport resized to 1209x1884, mode Windowed.
+[2022.09.25-18.24.03:645][447]LogViewport: Scene viewport resized to 1210x1884, mode Windowed.
+[2022.09.25-18.25.44:838][325]LogEditorViewport: Clicking Background
+[2022.09.25-18.25.46:041][375]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.09.25-18.25.46:061][375]LogSavePackage: Moving output files for package: /Game/LightingExamples/Maps/LightBounce
+[2022.09.25-18.25.46:065][375]LogSavePackage: Moving '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Saved/LightBounceB37F5814431790E7D05138957DAF8C2C.tmp' to '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Content/LightingExamples/Maps/LightBounce.umap'
+[2022.09.25-18.25.46:082][375]LogFileHelpers: No new changes to save!
+[2022.09.25-18.25.46:102][375]AssetCheck: New page: Asset Save: LightBounce
+[2022.09.25-18.25.46:102][375]LogContentValidation: Display: Validating World /Game/LightingExamples/Maps/LightBounce.LightBounce
+[2022.09.25-18.26.37:963][285]LogMaterial: Display: Missing cached shadermap for M_BasicMetal in PCD3D_SM5, Default, SM5 (DDC key hash: 53C4F547CB3B7ADD63692C631846D50C06B2B41C), compiling. 
+[2022.09.25-18.26.50:652][832]LogShaderCompilers: Display: ================================================
+[2022.09.25-18.26.50:652][832]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.25-18.26.50:652][832]LogShaderCompilers: Display: Total job queries 227, among them cache hits 93 (40.97%)
+[2022.09.25-18.26.50:652][832]LogShaderCompilers: Display: Tracking 99 distinct input hashes that result in 61 distinct outputs (61.62%)
+[2022.09.25-18.26.50:652][832]LogShaderCompilers: Display: RAM used: 0.15 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.01%
+[2022.09.25-18.26.50:652][832]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.25-18.26.50:652][832]LogShaderCompilers: Display: Shaders Compiled: 70
+[2022.09.25-18.26.50:652][832]LogShaderCompilers: Display: Jobs assigned 120, completed 99 (82.50%)
+[2022.09.25-18.26.50:652][832]LogShaderCompilers: Display: Average time worker was idle: 365.42 s
+[2022.09.25-18.26.50:653][832]LogShaderCompilers: Display: Time job spent in pending queue: average 0.61 s, longest 7.21 s
+[2022.09.25-18.26.50:653][832]LogShaderCompilers: Display: Job execution time: average 4.57 s, max 12.53 s
+[2022.09.25-18.26.50:653][832]LogShaderCompilers: Display: Job life time (pending + execution): average 5.28 s, max 12.63
+[2022.09.25-18.26.50:653][832]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 76.84 s
+[2022.09.25-18.26.50:653][832]LogShaderCompilers: Display: Jobs were issued in 78 batches (only local compilation was used), average 1.54 jobs/batch
+[2022.09.25-18.26.50:653][832]LogShaderCompilers: Display: Average processing rate: 1.29 jobs/sec
+[2022.09.25-18.26.50:653][832]LogShaderCompilers: Display: Effective parallelization: 2.57 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.09.25-18.26.50:653][832]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.25-18.26.50:653][832]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   16 times, average 3.16 sec, max 4.47 sec, min 0.82 sec)
+[2022.09.25-18.26.50:654][832]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   10 times, average 3.07 sec, max 4.38 sec, min 1.19 sec)
+[2022.09.25-18.26.50:654][832]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   17 times, average 2.95 sec, max 5.31 sec, min 1.22 sec)
+[2022.09.25-18.26.50:654][832]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    2 times, average 2.50 sec, max 3.74 sec, min 1.26 sec)
+[2022.09.25-18.26.50:654][832]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    2 times, average 1.95 sec, max 2.73 sec, min 1.17 sec)
+[2022.09.25-18.26.50:654][832]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.25-18.26.50:654][832]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 25.55% of total time (compiled   16 times, average 3.16 sec, max 4.47 sec, min 0.82 sec)
+[2022.09.25-18.26.50:654][832]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 25.37% of total time (compiled   17 times, average 2.95 sec, max 5.31 sec, min 1.22 sec)
+[2022.09.25-18.26.50:654][832]LogShaderCompilers: Display:                                                 FLumenCardVS - 15.52% of total time (compiled   10 times, average 3.07 sec, max 4.38 sec, min 1.19 sec)
+[2022.09.25-18.26.50:654][832]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 5.44% of total time (compiled    9 times, average 1.20 sec, max 1.89 sec, min 0.40 sec)
+[2022.09.25-18.26.50:654][832]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ - 2.53% of total time (compiled    2 times, average 2.50 sec, max 3.74 sec, min 1.26 sec)
+[2022.09.25-18.26.50:654][832]LogShaderCompilers: Display: ================================================
+[2022.09.25-18.29.37:088][626]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.09.25-18.29.37:096][626]LogSavePackage: Moving output files for package: /Game/LightingExamples/Maps/LightBounce
+[2022.09.25-18.29.37:098][626]LogSavePackage: Moving '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Saved/LightBounce164AEE7D472F009CA32D1A8B4050C990.tmp' to '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Content/LightingExamples/Maps/LightBounce.umap'
+[2022.09.25-18.29.37:112][626]LogFileHelpers: No new changes to save!
+[2022.09.25-18.29.37:126][626]AssetCheck: New page: Asset Save: LightBounce
+[2022.09.25-18.29.37:126][626]LogContentValidation: Display: Validating World /Game/LightingExamples/Maps/LightBounce.LightBounce
+[2022.09.25-18.30.06:710][637]LogMaterial: Display: Missing cached shadermap for MI_Emmisive_Master in PCD3D_SM5, Default, SM5 (DDC key hash: 8BAEE3CCACA6A887616D031BA2A6E0127454262E), compiling. 
+[2022.09.25-18.30.10:034][786]LogShaderCompilers: Display: ================================================
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display: Total job queries 233, among them cache hits 93 (39.91%)
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display: Tracking 122 distinct input hashes that result in 74 distinct outputs (60.66%)
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display: RAM used: 0.19 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.01%
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display: Shaders Compiled: 76
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display: Jobs assigned 126, completed 122 (96.83%)
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display: Average time worker was idle: 358.52 s
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display: Time job spent in pending queue: average 0.58 s, longest 7.21 s
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display: Job execution time: average 7.26 s, max 21.27 s
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display: Job life time (pending + execution): average 7.86 s, max 21.37
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 88.85 s
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display: Jobs were issued in 81 batches (only local compilation was used), average 1.56 jobs/batch
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display: Average processing rate: 1.37 jobs/sec
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display: Effective parallelization: 2.92 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   17 times, average 3.18 sec, max 4.47 sec, min 0.82 sec)
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   11 times, average 2.97 sec, max 4.38 sec, min 1.19 sec)
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   17 times, average 2.95 sec, max 5.31 sec, min 1.22 sec)
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    2 times, average 2.50 sec, max 3.74 sec, min 1.26 sec)
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    2 times, average 2.46 sec, max 3.51 sec, min 1.42 sec)
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.82% of total time (compiled   17 times, average 3.18 sec, max 4.47 sec, min 0.82 sec)
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 19.34% of total time (compiled   17 times, average 2.95 sec, max 5.31 sec, min 1.22 sec)
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.61% of total time (compiled   11 times, average 2.97 sec, max 4.38 sec, min 1.19 sec)
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.74% of total time (compiled   11 times, average 1.12 sec, max 1.89 sec, min 0.40 sec)
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 3.08% of total time (compiled    4 times, average 2.00 sec, max 4.24 sec, min 1.08 sec)
+[2022.09.25-18.30.10:035][786]LogShaderCompilers: Display: ================================================
+[2022.09.25-18.30.20:137][332]Cmd: TRANSACTION UNDO
+[2022.09.25-18.30.20:137][332]LogEditorTransaction: Undo Create Actors
+[2022.09.25-18.30.20:177][332]LogMaterial: Display: Missing cached shadermap for Preview:M_SpanishPavement in PCD3D_SM5, Default, SM5 (DDC key hash: DEC57BC017E90FAE5F6EDC6FBBA8F9116978070C), compiling. 
+[2022.09.25-18.30.20:214][332]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.25-18.30.20:214][332]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.25-18.30.20:214][332]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.25-18.30.20:215][332]MaterialEditorStats: Shader Count: 0
+[2022.09.25-18.30.20:408][335]MaterialEditorStats: Texture samplers: 5/16
+[2022.09.25-18.30.20:408][335]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.25-18.30.20:408][335]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.25-18.30.20:408][335]MaterialEditorStats: Shader Count: 4
+[2022.09.25-18.30.27:832][720]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cone.Cone
+[2022.09.25-18.30.27:832][720]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cone.Cone
+[2022.09.25-18.30.27:834][720]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cone.Cone as actor: StaticMeshActor /Game/LightingExamples/Maps/LightBounce.LightBounce:PersistentLevel.StaticMeshActor_0
+[2022.09.25-18.30.27:836][720]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cone.Cone as actor: StaticMeshActor /Game/LightingExamples/Maps/LightBounce.LightBounce:PersistentLevel.StaticMeshActor_0
+[2022.09.25-18.30.59:094][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.09.25-18.30.59:101][325]LogSavePackage: Moving output files for package: /Game/LightingExamples/Maps/LightBounce
+[2022.09.25-18.30.59:104][325]LogSavePackage: Moving '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Saved/LightBounceDA53D2C446BD62DDBE5BBDBA9E732D0B.tmp' to '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Content/LightingExamples/Maps/LightBounce.umap'
+[2022.09.25-18.30.59:119][325]LogFileHelpers: No new changes to save!
+[2022.09.25-18.30.59:149][325]AssetCheck: New page: Asset Save: LightBounce
+[2022.09.25-18.30.59:149][325]LogContentValidation: Display: Validating World /Game/LightingExamples/Maps/LightBounce.LightBounce
+[2022.09.25-18.31.31:230][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2022.09.25-18.31.31:239][811]LogSavePackage: Moving output files for package: /Game/LightingExamples/Maps/LightBounce
+[2022.09.25-18.31.31:241][811]LogSavePackage: Moving '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Saved/LightBounce6A9A5D9E48335B7B29EE10B6AB2FE45E.tmp' to '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Content/LightingExamples/Maps/LightBounce.umap'
+[2022.09.25-18.31.31:256][811]LogFileHelpers: No new changes to save!
+[2022.09.25-18.31.31:293][811]AssetCheck: New page: Asset Save: LightBounce
+[2022.09.25-18.31.31:293][811]LogContentValidation: Display: Validating World /Game/LightingExamples/Maps/LightBounce.LightBounce
+[2022.09.25-18.32.07:573][198]LogSavePackage: Moving output files for package: /Game/LightingExamples/Materials/M_Emmisive_Inst
+[2022.09.25-18.32.07:575][198]LogSavePackage: Moving '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Saved/M_Emmisive_Inst5D68375C4BE22D7A1FE16A96DF463481.tmp' to '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Content/LightingExamples/Materials/M_Emmisive_Inst.uasset'
+[2022.09.25-18.32.07:594][198]AssetCheck: New page: Asset Save: M_Emmisive_Inst
+[2022.09.25-18.32.07:594][198]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/LightingExamples/Materials/M_Emmisive_Inst.M_Emmisive_Inst
+[2022.09.25-18.32.14:725][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2022.09.25-18.32.14:859][602]LogMaterial: Display: Missing cached shadermap for M_AlarmClock in PCD3D_SM5, Default, SM5 (DDC key hash: E9C42C4CA0830688A48A5160BD369093E5252EA2), compiling. 
+[2022.09.25-18.32.14:907][602]LogMaterial: Display: Missing cached shadermap for M_Wall in PCD3D_SM5, Default, SM5 (DDC key hash: F9D98F24F507EB7B2D17F993B14C8A1926F57E07), compiling. 
+[2022.09.25-18.32.14:955][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/Masks/T_ClockColorMask.T_ClockColorMask (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.14:955][602]LogMaterial: Display: Missing cached shadermap for M_RotaryPhone in PCD3D_SM5, Default, SM5 (DDC key hash: 510BCBC8952FAF89FA2D2B0C92A5927EC9616EDB), compiling. 
+[2022.09.25-18.32.15:031][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/Masks/T_ClockDirtMask.T_ClockDirtMask (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.15:032][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/T_Clock_UVMaterial_BaseColor.T_Clock_UVMaterial_BaseColor (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.15:032][602]LogMaterial: Display: Missing cached shadermap for M_SmallTable in PCD3D_SM5, Default, SM5 (DDC key hash: 6132D33A76DFEFEB34A46AAFB0F8965B23662DF7), compiling. 
+[2022.09.25-18.32.15:097][602]LogMaterial: Display: Missing cached shadermap for M_SquareChair in PCD3D_SM5, Default, SM5 (DDC key hash: 1CCF92E2960013D44240920FF08DDBF2508A0CEA), compiling. 
+[2022.09.25-18.32.15:166][602]LogMaterial: Display: Missing cached shadermap for M_CoffeeCup in PCD3D_SM5, Default, SM5 (DDC key hash: 27C8509B5721FAD51259C9C4F964EFF1C8FE330B), compiling. 
+[2022.09.25-18.32.15:229][602]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LightingExamples/Maps/ArchVizRoom.ArchVizRoom
+[2022.09.25-18.32.15:229][602]Cmd: MAP LOAD FILE="../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Content/LightingExamples/Maps/ArchVizRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.25-18.32.15:229][602]LightingResults: New page: Lighting Build
+[2022.09.25-18.32.15:229][602]LoadErrors: New page: Loading map: ArchVizRoom.umap
+[2022.09.25-18.32.15:232][602]LogWorld: UWorld::CleanupWorld for LightBounce, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.32.15:232][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.32.15:232][602]MapCheck: New page: Map Check
+[2022.09.25-18.32.15:232][602]LightingResults: New page: Lighting Build
+[2022.09.25-18.32.15:249][602]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.25-18.32.15:251][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.09.25-18.32.15:270][602]LogTexture: Display: Waiting for textures to be ready 0/21 (/Game/LightingExamples/Textures/Masks/T_ClockColorMask) ...
+[2022.09.25-18.32.15:348][602]LogTexture: Display: Waiting for textures to be ready 1/21 (/Game/LightingExamples/Textures/Masks/T_ClockDirtMask) ...
+[2022.09.25-18.32.15:483][602]LogTexture: Display: Waiting for textures to be ready 2/21 (/Game/LightingExamples/Textures/T_Clock_UVMaterial_BaseColor) ...
+[2022.09.25-18.32.15:538][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/T_Clock_UVMaterial_MetallicRoughnessOcclusion.T_Clock_UVMaterial_MetallicRoughnessOcclusion (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.15:538][602]LogTexture: Display: Waiting for textures to be ready 3/21 (/Game/LightingExamples/Textures/T_Clock_UVMaterial_MetallicRoughnessOcclusion) ...
+[2022.09.25-18.32.15:849][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/Masks/T_RotaryPhoneColorMask.T_RotaryPhoneColorMask (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.15:849][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/T_Clock_UVMaterial_Normal.T_Clock_UVMaterial_Normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.15:869][602]LogTexture: Display: Waiting for textures to be ready 4/21 (/Game/LightingExamples/Textures/T_Clock_UVMaterial_Normal) ...
+[2022.09.25-18.32.16:017][602]LogTexture: Display: Waiting for textures to be ready 5/21 (/Game/LightingExamples/Textures/Masks/T_RotaryPhoneColorMask) ...
+[2022.09.25-18.32.16:041][602]LogTexture: Display: Waiting for textures to be ready 6/21 (/Game/LightingExamples/Textures/Masks/T_RotaryPhoneDirtMask) ...
+[2022.09.25-18.32.16:276][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/Masks/T_RotaryPhoneDirtMask.T_RotaryPhoneDirtMask (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.16:276][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/T_RotaryPhone_MainMat_BaseColor.T_RotaryPhone_MainMat_BaseColor (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.16:276][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/T_RotaryPhone_MainMat_MetallicRoughnessOcclusion.T_RotaryPhone_MainMat_MetallicRoughnessOcclusion (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.16:429][602]LogTexture: Display: Waiting for textures to be ready 7/21 (/Game/LightingExamples/Textures/T_RotaryPhone_MainMat_BaseColor) ...
+[2022.09.25-18.32.16:635][602]LogTexture: Display: Waiting for textures to be ready 8/21 (/Game/LightingExamples/Textures/T_RotaryPhone_MainMat_MetallicRoughnessOcclusion) ...
+[2022.09.25-18.32.16:697][602]LogTexture: Display: Waiting for textures to be ready 9/21 (/Game/LightingExamples/Textures/T_RotaryPhone_MainMat_Normal) ...
+[2022.09.25-18.32.16:912][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/T_RotaryPhone_MainMat_Normal.T_RotaryPhone_MainMat_Normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.16:912][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/Masks/T_SmallTableDirtMask.T_SmallTableDirtMask (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.16:912][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/T_SmallTable_UVMaterial_BaseColor.T_SmallTable_UVMaterial_BaseColor (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.17:104][602]LogTexture: Display: Waiting for textures to be ready 10/21 (/Game/LightingExamples/Textures/Masks/T_SmallTableDirtMask) ...
+[2022.09.25-18.32.17:248][602]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2022.09.25-18.32.17:248][602]LogTexture: Display: Waiting for textures to be ready 11/21 (/Game/LightingExamples/Textures/T_SmallTable_UVMaterial_BaseColor) ...
+[2022.09.25-18.32.17:301][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/T_SmallTable_UVMaterial_MetallicRoughnessOcclusion.T_SmallTable_UVMaterial_MetallicRoughnessOcclusion (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.17:301][602]LogTexture: Display: Waiting for textures to be ready 12/21 (/Game/LightingExamples/Textures/T_SmallTable_UVMaterial_MetallicRoughnessOcclusion) ...
+[2022.09.25-18.32.17:553][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/Masks/T_ChairPlastMaskNew.T_ChairPlastMaskNew (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.17:553][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/T_SmallTable_UVMaterial_Normal.T_SmallTable_UVMaterial_Normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.17:699][602]LogTexture: Display: Waiting for textures to be ready 13/21 (/Game/LightingExamples/Textures/T_SmallTable_UVMaterial_Normal) ...
+[2022.09.25-18.32.17:887][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/T_Chair_UVMaterial_BaseColor.T_Chair_UVMaterial_BaseColor (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.17:887][602]LogTexture: Display: Waiting for textures to be ready 15/21 (/Game/LightingExamples/Textures/T_Chair_UVMaterial_BaseColor) ...
+[2022.09.25-18.32.18:126][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/T_Chair_UVMaterial_MetallicRoughnessOcclusion.T_Chair_UVMaterial_MetallicRoughnessOcclusion (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.18:126][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/T_Chair_UVMaterial_Normal.T_Chair_UVMaterial_Normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.18:126][602]LogTexture: Display: Waiting for textures to be ready 16/21 (/Game/LightingExamples/Textures/T_Chair_UVMaterial_MetallicRoughnessOcclusion) ...
+[2022.09.25-18.32.18:252][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/T_CoffeCup_MainMat_BaseColor.T_CoffeCup_MainMat_BaseColor (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.18:428][602]LogTexture: Display: Waiting for textures to be ready 17/21 (/Game/LightingExamples/Textures/T_Chair_UVMaterial_Normal) ...
+[2022.09.25-18.32.18:447][602]LogTexture: Display: Waiting for textures to be ready 18/21 (/Game/LightingExamples/Textures/T_CoffeCup_MainMat_BaseColor) ...
+[2022.09.25-18.32.18:546][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/T_CoffeCup_MainMat_MetallicRoughnessOcclusion.T_CoffeCup_MainMat_MetallicRoughnessOcclusion (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.18:546][602]LogStaticMesh: Display: Building static mesh SM_BaseBoard...
+[2022.09.25-18.32.18:546][602]LogTexture: Display: Waiting for textures to be ready 19/21 (/Game/LightingExamples/Textures/T_CoffeCup_MainMat_MetallicRoughnessOcclusion) ...
+[2022.09.25-18.32.18:600][602]LogStaticMesh: Built static mesh [0.05s] /Game/LightingExamples/Meshes/ArchRoomGeometry/SM_BaseBoard.SM_BaseBoard
+[2022.09.25-18.32.18:600][602]LogStaticMesh: Display: Building static mesh SM_CurtainHolder...
+[2022.09.25-18.32.18:600][602]LogStaticMesh: Built static mesh [0.01s] /Game/LightingExamples/Meshes/ArchRoomGeometry/SM_CurtainHolder.SM_CurtainHolder
+[2022.09.25-18.32.18:600][602]LogStaticMesh: Display: Building static mesh SM_DoorKnbb...
+[2022.09.25-18.32.18:653][602]LogStaticMesh: Built static mesh [0.04s] /Game/LightingExamples/Meshes/ArchRoomGeometry/SM_DoorKnbb.SM_DoorKnbb
+[2022.09.25-18.32.18:653][602]LogStaticMesh: Display: Building static mesh SM_DoorWallPattern...
+[2022.09.25-18.32.18:791][602]LogTexture: Display: Building textures: /Game/LightingExamples/Textures/T_CoffeCup_MainMat_Normal.T_CoffeCup_MainMat_Normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.25-18.32.18:791][602]LogTexture: Display: Waiting for textures to be ready 20/21 (/Game/LightingExamples/Textures/T_CoffeCup_MainMat_Normal) ...
+[2022.09.25-18.32.18:853][602]LogStaticMesh: Display: Building static mesh SM_Floor...
+[2022.09.25-18.32.18:853][602]LogStaticMesh: Built static mesh [0.01s] /Game/LightingExamples/Meshes/ArchRoomGeometry/SM_Floor.SM_Floor
+[2022.09.25-18.32.18:853][602]LogStaticMesh: Display: Building static mesh SM_MainDoor...
+[2022.09.25-18.32.19:020][602]LogStaticMesh: Built static mesh [0.02s] /Game/LightingExamples/Meshes/ArchRoomGeometry/SM_MainDoor.SM_MainDoor
+[2022.09.25-18.32.19:020][602]LogStaticMesh: Display: Building static mesh SM_Roof...
+[2022.09.25-18.32.19:020][602]LogStaticMesh: Built static mesh [0.01s] /Game/LightingExamples/Meshes/ArchRoomGeometry/SM_Roof.SM_Roof
+[2022.09.25-18.32.19:020][602]LogStaticMesh: Display: Building static mesh SM_ThickCurtain...
+[2022.09.25-18.32.19:020][602]LogStaticMesh: Built static mesh [0.11s] /Game/LightingExamples/Meshes/ArchRoomGeometry/SM_ThickCurtain.SM_ThickCurtain
+[2022.09.25-18.32.19:020][602]LogStaticMesh: Display: Building static mesh SM_Walls...
+[2022.09.25-18.32.19:020][602]LogStaticMesh: Built static mesh [0.37s] /Game/LightingExamples/Meshes/ArchRoomGeometry/SM_DoorWallPattern.SM_DoorWallPattern
+[2022.09.25-18.32.19:036][602]LogStaticMesh: Display: Building static mesh SM_Window...
+[2022.09.25-18.32.19:036][602]LogStaticMesh: Built static mesh [0.01s] /Game/LightingExamples/Meshes/ArchRoomGeometry/SM_Window.SM_Window
+[2022.09.25-18.32.19:226][602]LogStaticMesh: Display: Building static mesh SM_WindowFrames...
+[2022.09.25-18.32.19:226][602]LogStaticMesh: Display: Building static mesh SM_AlarmClock...
+[2022.09.25-18.32.19:226][602]LogStaticMesh: Built static mesh [0.02s] /Game/LightingExamples/Meshes/ArchRoomGeometry/SM_WindowFrames.SM_WindowFrames
+[2022.09.25-18.32.19:226][602]LogStaticMesh: Display: Building static mesh SM_CoffeCup...
+[2022.09.25-18.32.19:226][602]LogStaticMesh: Built static mesh [0.14s] /Game/LightingExamples/Meshes/ArchRoomGeometry/SM_Walls.SM_Walls
+[2022.09.25-18.32.19:226][602]LogStaticMesh: Display: Building static mesh SM_RotaryPhone...
+[2022.09.25-18.32.19:435][602]LogStaticMesh: Built static mesh [0.31s] /Game/LightingExamples/Meshes/SM_CoffeCup.SM_CoffeCup
+[2022.09.25-18.32.19:435][602]LogStaticMesh: Built static mesh [0.32s] /Game/LightingExamples/Meshes/SM_AlarmClock.SM_AlarmClock
+[2022.09.25-18.32.19:435][602]LogStaticMesh: Display: Building static mesh SM_SmallTable...
+[2022.09.25-18.32.19:435][602]LogStaticMesh: Display: Building static mesh SM_SquareChair...
+[2022.09.25-18.32.19:643][602]LogStaticMesh: Built static mesh [0.10s] /Game/LightingExamples/Meshes/SM_SmallTable.SM_SmallTable
+[2022.09.25-18.32.19:853][602]LogStaticMesh: Built static mesh [0.61s] /Game/LightingExamples/Meshes/SM_RotaryPhone.SM_RotaryPhone
+[2022.09.25-18.32.20:062][602]LogStaticMesh: Built static mesh [0.47s] /Game/LightingExamples/Meshes/SM_SquareChair.SM_SquareChair
+[2022.09.25-18.32.21:106][602]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' exceeded budget of 2.000000s
+[2022.09.25-18.32.55:335][602]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' complete in 0.003012s (34.283691s overbudget)
+[2022.09.25-18.33.00:077][602]LogMeshUtilities: Finished distance field build in 1.6s - 119x7x70 sparse distance field, 0.1Mb total, 0.0Mb always loaded, 100% occupied, 373 triangles, SM_DoorWallPattern
+[2022.09.25-18.33.00:077][602]LogMeshUtilities: Finished distance field build in 1.7s - 105x98x7 sparse distance field, 0.1Mb total, 0.0Mb always loaded, 100% occupied, 4 triangles, SM_Floor
+[2022.09.25-18.33.00:077][602]LogMeshUtilities: Finished distance field build in 1.6s - 105x98x7 sparse distance field, 0.1Mb total, 0.0Mb always loaded, 100% occupied, 9 triangles, SM_Roof
+[2022.09.25-18.33.00:077][602]LogMeshUtilities: Finished distance field build in 3.9s - 259x7x175 sparse distance field, 0.5Mb total, 0.0Mb always loaded, 76% occupied, 21 triangles, SM_Window
+[2022.09.25-18.33.00:077][602]LogMeshUtilities: Finished distance field build in 4.0s - 119x105x56 sparse distance field, 0.6Mb total, 0.0Mb always loaded, 48% occupied, 9 triangles, SM_Walls
+[2022.09.25-18.33.00:077][602]LogMeshUtilities: Finished distance field build in 3.9s - 56x63x91 sparse distance field, 0.4Mb total, 0.0Mb always loaded, 66% occupied, 8954 triangles, SM_SquareChair
+[2022.09.25-18.33.00:112][602]LogWorld: UWorld::CleanupWorld for ArchVizRoom, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.33.00:112][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.33.00:123][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.09.25-18.33.00:133][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.09.25-18.33.00:137][602]LogAudio: Display: Audio Device (ID: 1) registered with world 'ArchVizRoom'.
+[2022.09.25-18.33.00:137][602]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.25-18.33.00:137][602]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-18.33.00:138][602]LogAIModule: Creating AISystem for world ArchVizRoom
+[2022.09.25-18.33.00:152][602]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.25-18.33.00:162][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.09.25-18.33.00:173][602]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.25-18.33.00:173][602]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.249ms to complete.
+[2022.09.25-18.33.00:173][602]LogFileHelpers: Loading map 'ArchVizRoom' took 44.944
+[2022.09.25-18.33.00:183][602]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.002781s (42.954554s overbudget)
+[2022.09.25-18.33.13:760][299]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2022.09.25-18.33.13:760][299]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2022.09.25-18.33.13:763][299]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/LightingExamples/Maps/ArchVizRoom.ArchVizRoom:PersistentLevel.DirectionalLight_0
+[2022.09.25-18.33.13:764][299]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/LightingExamples/Maps/ArchVizRoom.ArchVizRoom:PersistentLevel.DirectionalLight_0
+[2022.09.25-18.34.33:105][634]Cmd: TRANSACTION UNDO
+[2022.09.25-18.34.33:105][634]LogEditorTransaction: Undo Set Rotation
+[2022.09.25-18.34.33:142][634]LogMaterial: Display: Missing cached shadermap for Preview:M_SpanishPavement in PCD3D_SM5, Default, SM5 (DDC key hash: 29197F89DC727A1BFB9F5F8DBDCC18A6EF62AE2F), compiling. 
+[2022.09.25-18.34.33:181][634]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.25-18.34.33:181][634]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.25-18.34.33:181][634]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.25-18.34.33:181][634]MaterialEditorStats: Shader Count: 0
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: ================================================
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: Total job queries 391, among them cache hits 101 (25.83%)
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: Tracking 276 distinct input hashes that result in 158 distinct outputs (57.25%)
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: RAM used: 0.44 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.03%
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: Shaders Compiled: 226
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: Jobs assigned 276, completed 276 (100.00%)
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: Average time worker was idle: 288.82 s
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: Time job spent in pending queue: average 9.04 s, longest 39.29 s
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: Job execution time: average 8.54 s, max 21.27 s
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: Job life time (pending + execution): average 17.58 s, max 40.31
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 129.68 s
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: Jobs were issued in 102 batches (only local compilation was used), average 2.71 jobs/batch
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: Average processing rate: 2.13 jobs/sec
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: Effective parallelization: 3.25 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   24 times, average 2.55 sec, max 4.47 sec, min 0.82 sec)
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   24 times, average 2.39 sec, max 5.31 sec, min 0.86 sec)
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   17 times, average 2.29 sec, max 4.38 sec, min 0.86 sec)
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    8 times, average 1.55 sec, max 3.51 sec, min 0.95 sec)
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    8 times, average 1.52 sec, max 2.87 sec, min 0.96 sec)
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 14.55% of total time (compiled   24 times, average 2.55 sec, max 4.47 sec, min 0.82 sec)
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.59% of total time (compiled   24 times, average 2.39 sec, max 5.31 sec, min 0.86 sec)
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.25% of total time (compiled   17 times, average 2.29 sec, max 4.38 sec, min 0.86 sec)
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 3.56% of total time (compiled   17 times, average 0.88 sec, max 1.89 sec, min 0.33 sec)
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 3.50% of total time (compiled   10 times, average 1.47 sec, max 3.06 sec, min 1.03 sec)
+[2022.09.25-18.34.33:267][636]LogShaderCompilers: Display: ================================================
+[2022.09.25-18.34.33:316][637]MaterialEditorStats: Texture samplers: 5/16
+[2022.09.25-18.34.33:317][637]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.25-18.34.33:317][637]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.25-18.34.33:317][637]MaterialEditorStats: Shader Count: 4
+[2022.09.25-18.35.15:719][712]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.25-18.35.15:736][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.25-18.35.15:736][712]PIE: New page: PIE session: ArchVizRoom (Sep 25, 2022, 8:35:15 AM)
+[2022.09.25-18.35.15:737][712]LogPlayLevel: Creating play world package: /Game/LightingExamples/Maps/UEDPIE_0_ArchVizRoom
+[2022.09.25-18.35.15:741][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003652s)
+[2022.09.25-18.35.15:741][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LightingExamples/Maps/ArchVizRoom.ArchVizRoom to /Game/LightingExamples/Maps/UEDPIE_0_ArchVizRoom.ArchVizRoom (0.003845s)
+[2022.09.25-18.35.15:741][712]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.25-18.35.15:741][712]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-18.35.15:742][712]LogAIModule: Creating AISystem for world ArchVizRoom
+[2022.09.25-18.35.15:742][712]LogPlayLevel: PIE: World Init took: (0.001594s)
+[2022.09.25-18.35.15:757][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.09.25-18.35.15:758][712]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.09.25-18.35.15:758][712]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.25-18.35.15:758][712]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.25-18.35.15:758][712]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.25-18.35.15:758][712]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.25-18.35.15:758][712]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.25-18.35.15:758][712]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.25-18.35.15:758][712]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.25-18.35.15:758][712]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.25-18.35.15:759][712]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.25-18.35.15:759][712]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.25-18.35.15:759][712]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.25-18.35.15:764][712]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.25-18.35.15:855][712]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek Audio)
+[2022.09.25-18.35.15:856][712]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.25-18.35.15:857][712]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.25-18.35.15:857][712]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.25-18.35.15:858][712]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.09.25-18.35.15:858][712]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.09.25-18.35.15:860][712]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.09.25-18.35.15:860][712]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.09.25-18.35.15:860][712]LogInit: FAudioDevice initialized.
+[2022.09.25-18.35.15:860][712]LogAudio: Display: Audio Device (ID: 3) registered with world 'ArchVizRoom'.
+[2022.09.25-18.35.15:879][712]LogLoad: Game class is 'GameModeBase'
+[2022.09.25-18.35.15:880][712]LogWorld: Bringing World /Game/LightingExamples/Maps/UEDPIE_0_ArchVizRoom.ArchVizRoom up for play (max tick rate 0) at 2022.09.25-13.35.15
+[2022.09.25-18.35.15:880][712]LogWorld: Bringing up level for play took: 0.001141
+[2022.09.25-18.35.15:883][712]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2022.09.25-18.35.15:884][712]PIE: Server logged in
+[2022.09.25-18.35.15:884][712]PIE: Play in editor total start time 0.15 seconds.
+[2022.09.25-18.35.19:504][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.25-18.35.19:504][922]LogWorld: BeginTearingDown for /Game/LightingExamples/Maps/UEDPIE_0_ArchVizRoom
+[2022.09.25-18.35.19:505][922]LogWorld: UWorld::CleanupWorld for ArchVizRoom, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.35.19:505][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.35.19:521][922]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.25-18.35.19:524][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.35.19:532][922]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.25-18.35.19:532][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.09.25-18.35.19:534][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.09.25-18.35.19:540][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.25-18.35.19:542][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.09.25-18.35.19:585][923]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.09.25-18.35.32:820][557]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PostProcessVolume
+[2022.09.25-18.35.32:820][557]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PostProcessVolume
+[2022.09.25-18.35.32:821][557]LogActorFactory: Actor Factory spawned Class /Script/Engine.PostProcessVolume as actor: PostProcessVolume /Game/LightingExamples/Maps/ArchVizRoom.ArchVizRoom:PersistentLevel.PostProcessVolume_0
+[2022.09.25-18.35.32:823][557]LogActorFactory: Actor Factory spawned Class /Script/Engine.PostProcessVolume as actor: PostProcessVolume /Game/LightingExamples/Maps/ArchVizRoom.ArchVizRoom:PersistentLevel.PostProcessVolume_0
+[2022.09.25-18.37.46:244][419]Cmd: DELETE
+[2022.09.25-18.37.46:244][419]Cmd: ACTOR DELETE
+[2022.09.25-18.37.46:247][419]LogEditorActor: Deleted Actor: PostProcessVolume
+[2022.09.25-18.37.46:272][419]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.09.25-18.37.46:277][419]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2022.09.25-18.39.22:879][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2022.09.25-18.39.24:977][547]LogSlate: Window 'Save Content' being destroyed
+[2022.09.25-18.39.25:168][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.09.25-18.39.25:192][547]LogSavePackage: Moving output files for package: /Game/LightingExamples/Maps/ArchVizRoom
+[2022.09.25-18.39.25:196][547]LogSavePackage: Moving '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Saved/ArchVizRoom687E25F84C23AD0156B41FA5C812843B.tmp' to '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Content/LightingExamples/Maps/ArchVizRoom.umap'
+[2022.09.25-18.39.25:220][547]LogFileHelpers: Saving map 'ArchVizRoom' took 0.076
+[2022.09.25-18.39.25:306][547]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LightingExamples/Maps/LightBounce.LightBounce
+[2022.09.25-18.39.25:306][547]Cmd: MAP LOAD FILE="../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Content/LightingExamples/Maps/LightBounce.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.25-18.39.25:306][547]LightingResults: New page: Lighting Build
+[2022.09.25-18.39.25:306][547]LoadErrors: New page: Loading map: LightBounce.umap
+[2022.09.25-18.39.25:333][547]LogWorld: UWorld::CleanupWorld for ArchVizRoom, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.39.25:334][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.39.25:334][547]MapCheck: New page: Map Check
+[2022.09.25-18.39.25:334][547]LightingResults: New page: Lighting Build
+[2022.09.25-18.39.25:342][547]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.25-18.39.25:344][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.09.25-18.39.25:346][547]LogWorld: UWorld::CleanupWorld for LightBounce, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.39.25:346][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.39.25:354][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.09.25-18.39.25:362][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.09.25-18.39.25:366][547]LogAudio: Display: Audio Device (ID: 1) registered with world 'LightBounce'.
+[2022.09.25-18.39.25:366][547]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.25-18.39.25:366][547]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-18.39.25:366][547]LogAIModule: Creating AISystem for world LightBounce
+[2022.09.25-18.39.25:388][547]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.25-18.39.25:397][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.09.25-18.39.25:408][547]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.25-18.39.25:409][547]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.272ms to complete.
+[2022.09.25-18.39.25:409][547]LogFileHelpers: Loading map 'LightBounce' took 0.103
+[2022.09.25-18.39.25:436][547]AssetCheck: New page: Asset Save: ArchVizRoom
+[2022.09.25-18.39.25:437][547]LogContentValidation: Display: Validating World /Game/LightingExamples/Maps/ArchVizRoom.ArchVizRoom
+[2022.09.25-18.40.56:895][881]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.09.25-18.42.02:401][242]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.09.25-18.42.02:410][242]LogSavePackage: Moving output files for package: /Game/LightingExamples/Maps/LightBounce
+[2022.09.25-18.42.02:412][242]LogSavePackage: Moving '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Saved/LightBounce8AA6681D4A6CB935FB34F6871CF94C69.tmp' to '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Content/LightingExamples/Maps/LightBounce.umap'
+[2022.09.25-18.42.02:427][242]LogFileHelpers: No new changes to save!
+[2022.09.25-18.42.02:427][242]LogFileHelpers: Saving map 'LightBounce' took 0.037
+[2022.09.25-18.42.02:442][242]AssetCheck: New page: Asset Save: LightBounce
+[2022.09.25-18.42.02:442][242]LogContentValidation: Display: Validating World /Game/LightingExamples/Maps/LightBounce.LightBounce
+[2022.09.25-18.42.30:475][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2022.09.25-18.42.30:476][991]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LightingExamples/Maps/LightBounce.LightBounce
+[2022.09.25-18.42.30:476][991]Cmd: MAP LOAD FILE="../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Content/LightingExamples/Maps/LightBounce.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.25-18.42.30:476][991]LightingResults: New page: Lighting Build
+[2022.09.25-18.42.30:476][991]LoadErrors: New page: Loading map: LightBounce.umap
+[2022.09.25-18.42.30:478][991]LogWorld: UWorld::CleanupWorld for LightBounce, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.42.30:478][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.42.30:478][991]MapCheck: New page: Map Check
+[2022.09.25-18.42.30:478][991]LightingResults: New page: Lighting Build
+[2022.09.25-18.42.30:488][991]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.25-18.42.30:490][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.09.25-18.42.30:492][991]LogWorld: UWorld::CleanupWorld for ArchVizRoom, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.42.30:492][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.42.30:502][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.09.25-18.42.30:511][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.09.25-18.42.30:514][991]LogAudio: Display: Audio Device (ID: 1) registered with world 'LightBounce'.
+[2022.09.25-18.42.30:514][991]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.25-18.42.30:515][991]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-18.42.30:515][991]LogAIModule: Creating AISystem for world LightBounce
+[2022.09.25-18.42.30:538][991]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.25-18.42.30:546][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.09.25-18.42.30:557][991]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.25-18.42.30:558][991]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.279ms to complete.
+[2022.09.25-18.42.30:558][991]LogFileHelpers: Loading map 'LightBounce' took 0.082
+[2022.09.25-18.42.49:544][102]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.09.25-18.42.49:633][102]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LightingExamples/Maps/ArchVizRoom.ArchVizRoom
+[2022.09.25-18.42.49:633][102]Cmd: MAP LOAD FILE="../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Content/LightingExamples/Maps/ArchVizRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.25-18.42.49:633][102]LightingResults: New page: Lighting Build
+[2022.09.25-18.42.49:633][102]LoadErrors: New page: Loading map: ArchVizRoom.umap
+[2022.09.25-18.42.49:635][102]LogWorld: UWorld::CleanupWorld for LightBounce, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.42.49:635][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.42.49:635][102]MapCheck: New page: Map Check
+[2022.09.25-18.42.49:635][102]LightingResults: New page: Lighting Build
+[2022.09.25-18.42.49:646][102]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.25-18.42.49:647][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.09.25-18.42.49:648][102]LogWorld: UWorld::CleanupWorld for ArchVizRoom, bSessionEnded=true, bCleanupResources=true
+[2022.09.25-18.42.49:649][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.25-18.42.49:660][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.09.25-18.42.49:668][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.09.25-18.42.49:673][102]LogAudio: Display: Audio Device (ID: 1) registered with world 'ArchVizRoom'.
+[2022.09.25-18.42.49:673][102]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.25-18.42.49:674][102]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.25-18.42.49:674][102]LogAIModule: Creating AISystem for world ArchVizRoom
+[2022.09.25-18.42.49:691][102]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.25-18.42.49:701][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.09.25-18.42.49:712][102]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.25-18.42.49:712][102]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.234ms to complete.
+[2022.09.25-18.42.49:712][102]LogFileHelpers: Loading map 'ArchVizRoom' took 0.079
+[2022.09.25-18.43.08:648][977]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PostProcessVolume
+[2022.09.25-18.43.08:648][977]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PostProcessVolume
+[2022.09.25-18.43.08:649][977]LogActorFactory: Actor Factory spawned Class /Script/Engine.PostProcessVolume as actor: PostProcessVolume /Game/LightingExamples/Maps/ArchVizRoom.ArchVizRoom:PersistentLevel.PostProcessVolume_0
+[2022.09.25-18.43.08:652][977]LogActorFactory: Actor Factory spawned Class /Script/Engine.PostProcessVolume as actor: PostProcessVolume /Game/LightingExamples/Maps/ArchVizRoom.ArchVizRoom:PersistentLevel.PostProcessVolume_0
+[2022.09.25-18.44.56:226][554]Cmd: DELETE
+[2022.09.25-18.44.56:226][554]Cmd: ACTOR DELETE
+[2022.09.25-18.44.56:228][554]LogEditorActor: Deleted Actor: DirectionalLight
+[2022.09.25-18.44.56:271][554]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.09.25-18.44.56:273][554]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2022.09.25-18.45.02:171][861]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2022.09.25-18.45.02:171][861]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2022.09.25-18.45.02:172][861]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/LightingExamples/Maps/ArchVizRoom.ArchVizRoom:PersistentLevel.DirectionalLight_1
+[2022.09.25-18.45.02:173][861]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/LightingExamples/Maps/ArchVizRoom.ArchVizRoom:PersistentLevel.DirectionalLight_1
+[2022.09.25-18.46.29:372][664]LogSlate: Window 'Message' being destroyed
+[2022.09.25-18.46.29:381][664]Message dialog closed, result: Ok, title: Message, text: bForceNoPrecomputedLighting is now enabled, build lighting once to propagate the change (will remove existing precomputed lighting data).
+[2022.09.25-18.47.12:034][715]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2022.09.25-18.47.12:034][715]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2022.09.25-18.48.54:561][923]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.09.25-18.48.54:576][923]LogSavePackage: Moving output files for package: /Game/LightingExamples/Maps/ArchVizRoom
+[2022.09.25-18.48.54:578][923]LogSavePackage: Moving '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Saved/ArchVizRoomCA1DA1844842C82994939590EF2D0073.tmp' to '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Content/LightingExamples/Maps/ArchVizRoom.umap'
+[2022.09.25-18.48.54:614][923]AssetCheck: New page: Asset Save: ArchVizRoom
+[2022.09.25-18.48.54:614][923]LogContentValidation: Display: Validating World /Game/LightingExamples/Maps/ArchVizRoom.ArchVizRoom
+[2022.09.25-18.49.39:877][278]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.09.25-18.49.39:896][278]LogSavePackage: Moving output files for package: /Game/LightingExamples/Maps/ArchVizRoom
+[2022.09.25-18.49.39:898][278]LogSavePackage: Moving '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Saved/ArchVizRoom52F94C504594C920964D8BBEAADA107E.tmp' to '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Content/LightingExamples/Maps/ArchVizRoom.umap'
+[2022.09.25-18.49.39:932][278]AssetCheck: New page: Asset Save: ArchVizRoom
+[2022.09.25-18.49.39:932][278]LogContentValidation: Display: Validating World /Game/LightingExamples/Maps/ArchVizRoom.ArchVizRoom
