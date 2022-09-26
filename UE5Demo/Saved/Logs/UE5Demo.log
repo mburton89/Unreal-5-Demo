@@ -1376,3 +1376,9 @@ Recommended: 22.2.2
 [2022.09.26-01.22.30:788][178]LogSlate: Window 'Content Browser' being destroyed
 [2022.09.26-01.22.30:807][178]LogSlate: Window 'Content Browser' being destroyed
 [2022.09.26-01.22.33:545][408]LogSlate: Window 'Add Content to the Project' being destroyed
+[2022.09.26-01.31.38:737][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.09.26-01.31.38:823][113]LogTexture: Display: Building textures: /Game/MyStuff/Maps/LandscapeExample.LandscapeExample:PersistentLevel.Landscape_0.Weightmap_15 (BGRA8, 64X64 X1X1) (Required Memory Estimate: 0.10416 MB), EncodeSpeed: Fast
+[2022.09.26-01.31.38:823][113]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyStuff/Maps/LandscapeExample_Auto2
+[2022.09.26-01.31.38:823][113]LogSavePackage: Moving '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Saved/LandscapeExample_Auto26755E679476E555195D883A83C2C1C33.tmp' to '../../../../../../Users/burto/Documents/GitHub/Unreal-5-Demo/UE5Demo/Saved/Autosaves/Game/MyStuff/Maps/LandscapeExample_Auto2.umap'
+[2022.09.26-01.31.38:851][113]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyStuff/Maps/LandscapeExample' took 0.132
+[2022.09.26-01.31.38:851][113]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.132
